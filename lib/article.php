@@ -13,7 +13,7 @@ function getArticles(PDO $pdo, ?int $limit = null, ?int $page = null):array|bool
 
     /*
         @todo faire la requête de récupération des articles
-        La requête sera différente selon les paramètres passés, commencer par le BASE de base
+        La requête sera différente selon les paramètres passés, commencer déjà juste avec la base en ignrorant les autre params
     */
 
     //$query->execute();
