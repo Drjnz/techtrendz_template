@@ -6,6 +6,11 @@ require_once __DIR__ . "/templates/header.php";
 
 
 //@todo On doit récupérer l'id en paramètre d'url et appeler la fonction getArticleById récupérer l'article
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+} else {
+    $id = null;
+}
 
 ?>
 
